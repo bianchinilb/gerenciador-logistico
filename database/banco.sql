@@ -1,11 +1,13 @@
 -- Banco do Gerenciador Logistico
 -- Importar pelo phpMyAdmin do XAMPP (aba Importar) ou rodar direto na aba SQL
 
-CREATE DATABASE IF NOT EXISTS gerenciador_logistico
+DROP DATABASE IF EXISTS gerenciador_logistico;
+CREATE DATABASE gerenciador_logistico
   DEFAULT CHARACTER SET utf8mb4
   DEFAULT COLLATE utf8mb4_general_ci;
 
 USE gerenciador_logistico;
+SET NAMES utf8mb4;
 
 CREATE TABLE produtos (
   id INT AUTO_INCREMENT PRIMARY KEY,
