@@ -1,0 +1,71 @@
+body {
+    background-color: #f4f6f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.bg-escuro {
+    background-color: #1f3a4d;
+}
+
+.navbar .nav-link.active {
+    border-bottom: 2px solid #f0a500;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.card-resumo .icone {
+    font-size: 2rem;
+    color: #f0a500;
+}
+
+.card-resumo h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.titulo-pagina {
+    color: #1f3a4d;
+    font-weight: 600;
+}
+
+.btn-laranja {
+    background-color: #f0a500;
+    border-color: #f0a500;
+    color: #fff;
+}
+
+.btn-laranja:hover {
+    background-color: #d18f00;
+    border-color: #d18f00;
+    color: #fff;
+}
+
+.table thead th {
+    background-color: #1f3a4d;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* linhas de produto que o js adiciona no frete */
+.linha-produto {
+    background-color: #fafafa;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.obrigatorio::after {
+    content: " *";
+    color: #dc3545;
+}
