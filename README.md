@@ -30,7 +30,7 @@ Projeto da Atividade Prática Orientada da disciplina **Fundamentos de Programa�
 2. Clone o repositório dentro da pasta `htdocs`:
    ```bash
    cd C:\xampp\htdocs
-   git clone https://github.com/SEU-USUARIO/gerenciador-logistico.git
+   git clone https://github.com/bianchinilb/gerenciador-logistico.git
    ```
 3. Abra o phpMyAdmin (http://localhost/phpmyadmin), vá em **Importar** e selecione o arquivo `database/banco.sql`
 4. Acesse http://localhost/gerenciador-logistico
